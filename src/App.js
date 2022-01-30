@@ -3,7 +3,7 @@ import './App.css';
 import { withAuthenticator } from '@aws-amplify/ui-react'
 import '@aws-amplify/ui-react/styles.css';
 
-function App({ signOut, user }) {
+function App({ signOut, user }) { 
   return (
     <div className="App">
       <h1>Hello {user.username}!</h1>
